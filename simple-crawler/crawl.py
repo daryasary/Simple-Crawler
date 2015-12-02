@@ -18,7 +18,7 @@ def Crawl(site):
 	start = timeit.default_timer()
 	content = urllib.urlopen(site).read()
 	stop = timeit.default_timer()
-	print '%s done in %d seconds' % (site, (stop - start))
+	print '{} done in {} seconds and is {}'.format(site, (stop - start), len(content))
 	name = site_name(site)
 	save_output(content, name)
 	return content

@@ -3,8 +3,8 @@ sites = [
 	'http://digiato.com',
 	# 'http://Cnet.com',
 	# 'http://stackoverflow.com',
-	# 'http://1pezeshk.com',
-	'http://ramezanpour.me',
+	'http://1pezeshk.com',
+	# 'http://ramezanpour.me',
 ]
 
 
