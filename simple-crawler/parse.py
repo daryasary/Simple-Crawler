@@ -11,7 +11,7 @@ def find(content, filename, result):
 		# result.write(word, target , matches)
 		# print word, matches
 		if matches :
-			R = '{} includes {}'.format(filename, word)
+			R = '{} includes {}\n'.format(filename, word)
 			print R
 			print >>result, R
 
