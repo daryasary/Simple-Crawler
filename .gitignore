@@ -55,3 +55,9 @@ docs/_build/
 
 # PyBuilder
 target/
+
+# Costum ignore files
+targets.txt
+files/
+result.txt
+
