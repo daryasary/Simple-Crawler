@@ -4,7 +4,8 @@ import os
 from datetime import date
 
 
-data = []
+# data = []
+data = {}
 
 # Make a seperate dir everyday
 now = date.today()
@@ -14,8 +15,9 @@ if not os.path.exists(A):
 
 # Crawl sites:
 for site in sites:
-	data.append(Crawl(site))
+	# data.append(Crawl(site))
+	data[site] = Crawl(site)
 
 # Show count of crawled site character
-for d in data:
-	print 'is ', len(d)
+for k in data:
+	print k, 'is ', len(data[k])
