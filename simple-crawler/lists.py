@@ -9,7 +9,7 @@
 
 sites = open('sites.txt', 'r')
 sites = sites.read()
-sites.split('\n')
+sites = sites.split('\n')
 
 
 

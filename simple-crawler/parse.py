@@ -1,12 +1,12 @@
 import re
 import os
-from lists import target
+from lists import targets
 from datetime import date
 
 
 
 def find(content, filename, result):
-	for word in target:
+	for word in targets:
 		matches = re.findall(word, content)
 		# result.write(word, target , matches)
 		# print word, matches
