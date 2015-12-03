@@ -3,8 +3,8 @@ Simple web crawler that crawl given sites at first and store them in hard drive,
 In the next phase it will be able to parse the downloaded sites and return suitable .pdf file include text and links.
 
 #Usage
-create targets.txt file and write your keywords in it, then:
-::
+create targets.txt and sites.txt files in main directory,write your preferred sites in sites.txt and your keywords in targets.txt. then:
+
 
     python main.py
     
