@@ -1,5 +1,5 @@
 from crawl import Crawl 
-from lists import sites, target
+from lists import sites, targets
 import os
 from datetime import date
 from parse import find
